@@ -1,0 +1,106 @@
+body {
+  text-align: center;
+  background-color: #004030;
+  color: #FFF9E5;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: center;
+  font-size: calc(10px + 2vmin);
+  font-weight: bold;
+}
+
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.App-nav {
+  padding: 0px 20px 5px 20px;
+  background-color: #4A9782;
+  text-decoration: none;
+  margin-top: 10px;
+  line-height: 1;
+  vertical-align: middle;
+  font-size: 1.3em;
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+#home-link{
+  padding-right: 15px;
+}
+
+#add-link{
+  padding-left: 15px;
+}
+
+.Exercise-List {
+  border: 10px solid #4A9782;
+  background-color: #254e58;
+  padding: 10px;
+}
+
+th, td {
+  border: 1px solid #bab2b5;
+}
+
+td, p {
+  color: #88bdbc;
+}
+
+input, select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: flex;
+  border: 1px solid #4A9782;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: #254e58;
+  font-size: calc(10px + 2vmin);
+  font-weight: bold;
+  color: #88bdbc;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  
+}
+
+.page-title {
+  background-color: #4A9782;
+}
+
+.weight-units {
+  width: 100%;
+  display: flex;
+}
+
+button {
+  width: 100%;
+  background-color: #254e58;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: calc(10px + 2vmin);
+  font-weight: bold;
+  color: #88bdbc;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.edit:hover, .delete:hover {
+  color: #6e6658;
+}
+
+header, footer, h1, p {
+  background-color: #254e58;
+  margin: 0;
+}
+
+
+
+
+
+
+
